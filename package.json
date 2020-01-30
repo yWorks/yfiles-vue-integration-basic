@@ -1,0 +1,45 @@
+{
+  "name": "yfiles-vue-integration-basic",
+  "version": "0.1.0",
+  "author": "yWorks GmbH <yfileshtml@yworks.com>",
+  "private": true,
+  "scripts": {
+    "preinstall": "cd ../yFiles-for-HTML-Complete-2.2.0.3-Evaluation/lib/es-modules && npm pack",
+    "postinstall": "node -e \"require('fs').copyFileSync('../yFiles-for-HTML-Complete-2.2.0.3-Evaluation/ide-support/yfiles-typeinfo.js','./public/yfiles-typeinfo.js')\"",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^3.4.4",
+    "vue": "^2.6.10",
+    "yfiles": "../yFiles-for-HTML-Complete-2.2.0.3-Evaluation/lib/es-modules/yfiles-22.0.3-eval.tgz"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-plugin-eslint": "^4.1.0",
+    "@vue/cli-service": "^4.1.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
