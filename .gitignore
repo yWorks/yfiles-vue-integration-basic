@@ -1,7 +1,6 @@
 .DS_Store
 node_modules
 /dist
-yfiles-typeinfo.js
 license.json
 
 # local env files

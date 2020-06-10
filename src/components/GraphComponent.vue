@@ -5,7 +5,7 @@
 
 <script>
   import { GraphComponent, GraphEditorInputMode, License, Point, Rect } from 'yfiles'
-  import licenseData from '../../../yFiles-for-HTML-Complete-2.2.0.3-Evaluation/lib/license.json'
+  import licenseData from '../license.json'
 
   License.value = licenseData
 
