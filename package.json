@@ -4,7 +4,7 @@
   "author": "yWorks GmbH <yfileshtml@yworks.com>",
   "private": true,
   "scripts": {
-    "preinstall": "cd ../yFiles-for-HTML-Complete-2.3.0.2-Evaluation && npm install",
+    "preinstall": "cd ../yFiles-for-HTML-Complete-2.3.0.2-Evaluation && npm run prepare-package",
     "postinstall": "node -e \"require('fs').copyFileSync('../yFiles-for-HTML-Complete-2.3.0.2-Evaluation/lib/license.json','./src/license.json')\"",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
