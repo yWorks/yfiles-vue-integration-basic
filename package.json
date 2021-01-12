@@ -1,28 +1,28 @@
 {
   "name": "yfiles-vue-integration-basic",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "yWorks GmbH <yfileshtml@yworks.com>",
   "private": true,
   "scripts": {
-    "preinstall": "cd ../yFiles-for-HTML-Complete-2.3.0.3-Evaluation && npm run prepare-package",
-    "postinstall": "node -e \"require('fs').copyFileSync('../yFiles-for-HTML-Complete-2.3.0.3-Evaluation/lib/license.json','./src/license.json')\"",
+    "preinstall": "cd ../yFiles-for-HTML-Complete-2.3.0.4-Evaluation && npm run prepare-package",
+    "postinstall": "node -e \"require('fs').copyFileSync('../yFiles-for-HTML-Complete-2.3.0.4-Evaluation/lib/license.json','./src/license.json')\"",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
-    "vue": "^2.6.11",
-    "yfiles": "../yFiles-for-HTML-Complete-2.3.0.3-Evaluation/lib-dev/es-modules/yfiles-23.0.2-eval-dev.tgz"
+    "core-js": "^3.8.1",
+    "vue": "^2.6.12",
+    "yfiles": "../yFiles-for-HTML-Complete-2.3.0.4-Evaluation/lib-dev/es-modules/yfiles-23.0.4-eval-dev.tgz"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.4.1",
-    "@vue/cli-plugin-eslint": "^4.4.1",
-    "@vue/cli-service": "^4.4.1",
+    "@vue/cli-plugin-babel": "^4.5.9",
+    "@vue/cli-plugin-eslint": "^4.5.9",
+    "@vue/cli-service": "^4.5.9",
     "babel-eslint": "^10.1.0",
-    "eslint": "^5.16.0",
-    "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11"
+    "eslint": "^7.15.0",
+    "eslint-plugin-vue": "^7.3.0",
+    "vue-template-compiler": "^2.6.12"
   },
   "eslintConfig": {
     "root": true,
