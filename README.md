@@ -8,8 +8,8 @@ This sample application serves as a basic scaffold of how to integrate [yFiles f
 
 ## Version Information
 
-- Vue CLI v4.4.1
-- yFiles for HTML 2.3
+- Vue CLI v4.5
+- yFiles for HTML 2.4
 
 ## Getting Started
 

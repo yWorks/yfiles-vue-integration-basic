@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="header">
-      <img alt="yFiles logo" src="./assets/yfiles-logo.svg">
+      <img alt="yFiles logo" src="./assets/yfiles-logo.svg" />
       <h1>A Basic yFiles Integration in Vue.js</h1>
     </div>
     <graph-component></graph-component>
@@ -14,8 +14,8 @@ import GraphComponent from './components/GraphComponent.vue'
 export default {
   name: 'app',
   components: {
-    GraphComponent
-  }
+    GraphComponent,
+  },
 }
 </script>
 

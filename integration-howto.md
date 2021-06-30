@@ -6,7 +6,7 @@ TL;DR Add yFiles as a dependency in the `package.json` and start importing yFile
 
 ## Create a default Vue CLI application
 
-At first, create a default Vue CLI app by running `> vue create yfiles-vue-integration-basic` with the default option: `default (babel, eslint)`.
+At first, create a default Vue CLI app by running `> vue create yfiles-vue-integration-basic` with the default option: `default ([Vue 2] babel, eslint)`.
 
 ## Add yFiles as a dependency
 
@@ -24,7 +24,7 @@ Adding yFiles as a dependency is as easy as installing an external library from 
      ```
      "dependencies": {
        ...
-       "yfiles": "../yFiles-for-HTML-Complete-2.3.0.3-Evaluation/lib-dev/es-modules/yfiles-23.0.2-eval-dev.tgz"
+       "yfiles": "../yFiles-for-HTML-Complete-2.4.0.0-Evaluation/lib-dev/es-modules/yfiles-24.0.0-eval-dev.tgz"
      },
      ```
 
@@ -43,7 +43,6 @@ With the yFiles dependency, you can easily create a new Vue component with a yFi
    There are two things to look out for:
 
    - Make sure to configure your `license.json` for the library. This project assumes that there is a yFiles package next to the project's root. Therefore, you may need to change the referenced path in `GraphComponent.vue`.
-   - Make sure to include `yfiles.css` which is an integral part of the library. For example add `@import '~yfiles/yfiles.css';` as in `GraphComponent.vue`.
 
 2. Add the new Vue component to the `App.vue` that was created by the Vue CLI.
 
