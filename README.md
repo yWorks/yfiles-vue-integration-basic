@@ -43,9 +43,16 @@ This basic yFiles integration can be used as a starting point to test the capabi
 
 You can browse through the demos and look for features that you find interesting for your use case and integrate it in this basic component to build a more sophisticated application.
 
-The yFiles package also contains a bigger [Vue.js integration demo](https://live.yworks.com/demos/toolkit/vuejs/index.html) ([GitHub](https://github.com/yWorks/yfiles-for-html-demos/blob/master/demos/toolkit/vuejs)) and another [Vue CLI demo](https://live.yworks.com/demos/toolkit/vue-cli/index.html) ([GitHub](https://github.com/yWorks/yfiles-for-html-demos/tree/master/demos/toolkit/vue-cli)), as well as a specialized [Vue.js Template Node Style](https://live.yworks.com/demos/style/vuejstemplatenodestyle/index.html) ([GitHub](https://github.com/yWorks/yfiles-for-html-demos/tree/master/demos/style/vuejstemplatenodestyle)) that leverages the powerful data binding and conditional rendering features of Vue.js.
+The yFiles package also contains a more extensive [Vue.js integration demo](https://live.yworks.com/demos/toolkit/vue2/index.html) ([GitHub](https://github.com/yWorks/yfiles-for-html-demos/blob/master/demos/toolkit/vuejs)) and another [Vue CLI demo](https://live.yworks.com/demos/toolkit/vue2-cli/index.html) ([GitHub](https://github.com/yWorks/yfiles-for-html-demos/tree/master/demos/toolkit/vue-cli)), as well as a specialized [Vue.js Template Node Style](https://live.yworks.com/demos/style/vuejstemplatenodestyle/index.html) ([GitHub](https://github.com/yWorks/yfiles-for-html-demos/tree/master/demos/style/vuejstemplatenodestyle)) that leverages the powerful data binding and conditional rendering features of Vue.js.
 
 Furthermore, there is an extensive [Developer's Guide](https://docs.yworks.com/yfileshtml/#/dguide/introduction#top) that covers anything from graph creation and styling to automatic layouts and advanced customizations.
+
+## Create a Diagram Application with Vue
+
+The [App Generator](https://www.yworks.com/products/app-generator) is a tool that lets you interactively create a diagram
+application prototype to visualize your data. Select features like editing, context menu, graph search, or printing
+and customize the interaction with the graph. Generate Vue code for your prototype and use it with a valid
+[yFiles for HTML](https://www.yworks.com/products/yfiles-for-html) version.
 
 ## Support
 
