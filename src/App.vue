@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import GraphComponent from './components/GraphComponent.vue'
+</script>
+
 <template>
   <div id="app">
     <div class="header">
@@ -8,18 +12,7 @@
   </div>
 </template>
 
-<script>
-import GraphComponent from './components/GraphComponent.vue'
-
-export default {
-  name: 'app',
-  components: {
-    GraphComponent,
-  },
-}
-</script>
-
-<style>
+<style scoped>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

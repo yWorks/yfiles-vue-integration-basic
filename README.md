@@ -1,15 +1,15 @@
 <img src="./src/assets/yfiles-logo.svg" alt="yFiles logo" height="100"/>
 
-# yFiles integration for Vue CLI
+# yFiles integration for create-vue
 
-This sample application serves as a basic scaffold of how to integrate [yFiles for HTML](https://www.yworks.com/products/yfiles-for-html) in a [Vue CLI](https://cli.vuejs.org/) application.
+This sample application serves as a basic scaffold of how to integrate [yFiles for HTML](https://www.yworks.com/products/yfiles-for-html) in a [create-vue](https://vuejs.org/guide/quick-start.html#with-build-tools) application.
 
 **To run this project, a valid [yFiles for HTML](https://www.yworks.com/products/yfiles-for-html) version is required. You can evaluate yFiles 60 days free of charge on [my.yworks.com](https://my.yworks.com/signup?product=YFILES_HTML_EVAL).**
 
 ## Version Information
 
-- Vue CLI v4.5
-- yFiles for HTML 2.4
+- create-vue v3.3
+- yFiles for HTML 2.5
 
 ## Getting Started
 
@@ -25,15 +25,15 @@ Then, extract a yFiles Evaluation package beside it and run
 npm install
 ```
 
-You can serve the application on [http://localhost:8080/](http://localhost:8080/) with
+You can serve the application on [http://localhost:5173/](http://localhost:5173/) with
 
 ```
-npm run serve
+npm run dev
 ```
 
 ## Under the Hood
 
-This project is a default Vue CLI application, where yFiles was added as an additional dependency to integrate a basic graph component.
+This project is a basic create-vue application, where yFiles was added as an additional dependency to integrate a basic graph component.
 
 A step-by-step description of how to integrate yFiles in a Vue application can be found [here](integration-howto.md).
 
@@ -56,5 +56,5 @@ and customize the interaction with the graph. Generate Vue code for your prototy
 
 ## Support
 
-If you need help with your setup or a certain feature, don't hesitate to contact our support
-through the [Customer Center](https://my.yworks.com/) or by email [yfileshtml@yworks.com](mailto:yfileshtml@yworks.com).
+If you need help with your setup or a certain feature, don't hesitate to contact our support through
+the [Customer Center](https://my.yworks.com/) or by email [yfileshtml@yworks.com](mailto:yfileshtml@yworks.com).
