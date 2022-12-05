@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, onUnmounted, onMounted } from 'vue'
+import { onMounted, onUnmounted, ref } from 'vue'
 import { GraphComponent, GraphEditorInputMode, IGraph, License, Point, Rect } from 'yfiles'
 import licenseData from '../license.json'
 
@@ -11,7 +11,7 @@ const graphComponent = initializeGraphComponent()
 graphComponent.inputMode = new GraphEditorInputMode()
 
 onMounted(() => {
-  ;(gcContainer.value as HTMLDivElement).appendChild(graphComponent.div)
+  ;(gcContainer.value as unknown as HTMLDivElement).appendChild(graphComponent.div)
   graphComponent.fitGraphBounds()
 })
 
