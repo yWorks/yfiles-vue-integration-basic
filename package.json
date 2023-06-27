@@ -11,11 +11,11 @@
     "type-check": "vue-tsc --noEmit",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "postinstall": "npm run copy-eval-license",
-    "copy-eval-license": "node -e \"require('fs').copyFileSync('../yFiles-for-HTML-Complete-2.5.0.3-Evaluation/lib/license.json','./src/license.json')\""
+    "copy-eval-license": "node -e \"require('fs').copyFileSync('../yFiles-for-HTML-Complete-2.5.0.4-Evaluation/lib/license.json','./src/license.json')\""
   },
   "dependencies": {
     "vue": "^3.2.37",
-    "yfiles": "../yFiles-for-HTML-Complete-2.5.0.3-Evaluation/lib-dev/yfiles-25.0.3+eval-dev.tgz"
+    "yfiles": "../yFiles-for-HTML-Complete-2.5.0.4-Evaluation/lib-dev/yfiles-25.0.4+eval-dev.tgz"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.0",
