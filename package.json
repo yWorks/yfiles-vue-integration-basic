@@ -6,28 +6,29 @@
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
-    "preview": "vite preview --port 4173",
+    "preview": "vite preview",
     "build-only": "vite build",
-    "type-check": "vue-tsc --noEmit",
+    "type-check": "vue-tsc --noEmit -p tsconfig.app.json --composite false",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "postinstall": "npm run copy-eval-license",
-    "copy-eval-license": "node -e \"require('fs').copyFileSync('../yFiles-for-HTML-Complete-2.5.0.4-Evaluation/lib/license.json','./src/license.json')\""
+    "copy-eval-license": "node -e \"require('fs').copyFileSync('../yFiles-for-HTML-Complete-2.6-Evaluation/lib/license.json','./src/license.json')\""
   },
   "dependencies": {
-    "vue": "^3.2.37",
-    "yfiles": "../yFiles-for-HTML-Complete-2.5.0.4-Evaluation/lib-dev/yfiles-25.0.4+eval-dev.tgz"
+    "vue": "^3.3.4",
+    "yfiles": "../yFiles-for-HTML-Complete-2.6-Evaluation/lib-dev/yfiles-26.0.0+eval-dev.tgz"
   },
   "devDependencies": {
-    "@rushstack/eslint-patch": "^1.1.0",
-    "@types/node": "^16.11.45",
-    "@vitejs/plugin-vue": "^3.0.1",
-    "@vue/eslint-config-typescript": "^11.0.0",
-    "@vue/tsconfig": "^0.1.3",
-    "eslint": "^8.5.0",
-    "eslint-plugin-vue": "^9.0.0",
+    "@rushstack/eslint-patch": "^1.2.0",
+    "@tsconfig/node18": "^2.0.1",
+    "@types/node": "^18.16.17",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/eslint-config-typescript": "^11.0.3",
+    "@vue/tsconfig": "^0.4.0",
+    "eslint": "^8.39.0",
+    "eslint-plugin-vue": "^9.11.0",
     "npm-run-all": "^4.1.5",
-    "typescript": "~4.7.4",
-    "vite": "^3.0.1",
-    "vue-tsc": "^0.38.8"
+    "typescript": "~5.1.6",
+    "vite": "^4.3.9",
+    "vue-tsc": "^1.8.1"
   }
 }

@@ -17,7 +17,7 @@ the following options:
 - `Add Vue Router for Single Page Application development?` No
 - `Add Pinia for state management?` No
 - `Add Vitest for Unit testing?` No
-- `Add Cypress for both Unit and End-to-End testing?` No
+- `Add an End-to-End Testing Solution?` No
 - `Add ESLint for code quality?` Yes
 - `Add Prettier for code formatting?` No
 
@@ -30,7 +30,7 @@ Adding yFiles as a dependency is almost as easy as installing an external librar
    ```
    "dependencies": {
      ...
-     "yfiles": "../yFiles-for-HTML-Complete-2.5.0.4-Evaluation/lib-dev/yfiles-25.0.4+eval-dev.tgz"
+     "yfiles": "../yFiles-for-HTML-Complete-2.6-Evaluation/lib-dev/yfiles-26.0.0+eval-dev.tgz"
    },
    ```
 

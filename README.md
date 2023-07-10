@@ -9,7 +9,7 @@ This sample application serves as a basic scaffold of how to integrate [yFiles f
 ## Version Information
 
 - create-vue v3.3
-- yFiles for HTML 2.5
+- yFiles for HTML 2.6
 
 ## Getting Started
 
@@ -43,7 +43,7 @@ This basic yFiles integration can be used as a starting point to test the capabi
 
 You can browse through the demos and look for features that you find interesting for your use case and integrate it in this basic component to build a more sophisticated application.
 
-The yFiles package also contains a more extensive [Vue.js integration demo](https://live.yworks.com/demos/toolkit/vue2/index.html) ([GitHub](https://github.com/yWorks/yfiles-for-html-demos/blob/master/demos/toolkit/vuejs)) and another [Vue CLI demo](https://live.yworks.com/demos/toolkit/vue2-cli/index.html) ([GitHub](https://github.com/yWorks/yfiles-for-html-demos/tree/master/demos/toolkit/vue-cli)), as well as a specialized [Vue.js Template Node Style](https://live.yworks.com/demos/style/vuejstemplatenodestyle/index.html) ([GitHub](https://github.com/yWorks/yfiles-for-html-demos/tree/master/demos/style/vuejstemplatenodestyle)) that leverages the powerful data binding and conditional rendering features of Vue.js.
+The yFiles package also contains a more extensive [Vue integration demo](https://live.yworks.com/demos/toolkit/vue/index.html) ([GitHub](https://github.com/yWorks/yfiles-for-html-demos/blob/master/demos/toolkit/vue)), as well as a specialized [Vue.js Template Node Style](https://live.yworks.com/demos/style/vue-template-node-style/index.html) ([GitHub](https://github.com/yWorks/yfiles-for-html-demos/tree/master/demos/style/vue-template-node-style)) that leverages the powerful data binding and conditional rendering features of Vue.js.
 
 Furthermore, there is an extensive [Developer's Guide](https://docs.yworks.com/yfileshtml/#/dguide/introduction#top) that covers anything from graph creation and styling to automatic layouts and advanced customizations.
 
