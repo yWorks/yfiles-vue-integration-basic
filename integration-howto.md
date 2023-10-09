@@ -25,12 +25,12 @@ the following options:
 
 Adding yFiles as a dependency is almost as easy as installing an external library from the npm registry:
 
-1. Add yFiles for HTML as npm dependency to the created project, for example like this:
+1. Add yFiles for HTML as npm dependency to the created project, for example, like this:
 
    ```
    "dependencies": {
      ...
-     "yfiles": "../yFiles-for-HTML-Complete-2.6.0.1-Evaluation/lib-dev/yfiles-26.0.1+eval-dev.tgz"
+     "yfiles": "../yFiles-for-HTML-Complete-2.6.0.2-Evaluation/lib-dev/yfiles-26.0.2+eval-dev.tgz"
    },
    ```
 
