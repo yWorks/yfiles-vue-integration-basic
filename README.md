@@ -2,7 +2,7 @@
 
 # yFiles integration for create-vue
 
-This sample application serves as a basic scaffold of how to integrate [yFiles for HTML](https://www.yworks.com/products/yfiles-for-html) in a [create-vue](https://vuejs.org/guide/quick-start.html#with-build-tools) application.
+This sample application serves as a basic scaffold of how to integrate [yFiles for HTML](https://www.yworks.com/products/yfiles-for-html) in a [create-vue](https://vuejs.org/guide/quick-start.html) application.
 
 **To run this project, a valid [yFiles for HTML](https://www.yworks.com/products/yfiles-for-html) version is required. You can evaluate yFiles 60 days free of charge on [my.yworks.com](https://my.yworks.com/signup?product=YFILES_HTML_EVAL).**
 
