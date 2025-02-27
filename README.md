@@ -9,7 +9,7 @@ This sample application serves as a basic scaffold of how to integrate [yFiles f
 ## Version Information
 
 - create-vue v3.3
-- yFiles for HTML 2.6
+- yFiles for HTML 3.0
 
 ## Getting Started
 
@@ -19,7 +19,7 @@ Just clone this repository with
 git clone https://github.com/yWorks/yfiles-vue-integration-basic
 ```
 
-Then, extract a yFiles Evaluation package beside it and run
+Then, extract a yFiles Evaluation package besides it and run
 
 ```
 npm install

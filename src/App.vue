@@ -23,10 +23,12 @@ import GraphComponent from './components/GraphComponent.vue'
   flex-direction: column;
   align-items: center;
 }
+
 .header {
   width: 100%;
   text-align: center;
 }
+
 .header img {
   height: 100px;
 }
