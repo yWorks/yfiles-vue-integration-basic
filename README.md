@@ -43,7 +43,7 @@ This basic yFiles integration can be used as a starting point to test the capabi
 
 You can browse through the demos and look for features that you find interesting for your use case and integrate it in this basic component to build a more sophisticated application.
 
-The yFiles package also contains a more extensive [Vue integration demo](https://www.yfiles.com/demos/toolkit/vue/) ([GitHub](https://github.com/yWorks/yfiles-for-html-demos/blob/master/demos/toolkit/vue)), as well as a specialized [Vue.js Template Node Style](https://www.yfiles.com/demos/style/vue-template-node-style/) ([GitHub](https://github.com/yWorks/yfiles-for-html-demos/tree/master/demos/style/vue-template-node-style)) that leverages the powerful data binding and conditional rendering features of Vue.js.
+The yFiles package also contains a more extensive [Vue integration demo](https://www.yfiles.com/demos/toolkit/vue/) ([GitHub](https://github.com/yWorks/yfiles-for-html-demos/blob/master/demos/toolkit/vue)), as well as a specialized [Vue.js Component Node Style](https://www.yfiles.com/demos/style/vue-component-node-style/) ([GitHub](https://github.com/yWorks/yfiles-for-html-demos/tree/master/demos/style/vue-component-node-style)) that leverages the powerful data binding and conditional rendering features of Vue.js.
 
 Furthermore, there is an extensive [Developer's Guide](https://docs.yworks.com/yfileshtml/#/dguide/introduction#top) that covers anything from graph creation and styling to automatic layouts and advanced customizations.
 
