@@ -1,6 +1,6 @@
 {
   "name": "@yfiles/yfiles-vue-integration-basic",
-  "version": "30.0.4",
+  "version": "30.0.5",
   "author": "yWorks GmbH <yfileshtml@yworks.com>",
   "private": true,
   "scripts": {
@@ -8,20 +8,20 @@
     "preview": "vite preview",
     "build": "vite build",
     "postinstall": "npm run copy-eval-license",
-    "copy-eval-license": "node -e \"require('fs').copyFileSync('../yFiles-for-HTML-Complete-3.0.0.4-Evaluation/lib/license.json','./src/license.json')\""
+    "copy-eval-license": "node -e \"require('node:fs').cpSync('../yFiles-for-HTML-Complete-3.0.0.5-Evaluation/lib/license.json','./src/license.json')\""
   },
   "dependencies": {
-    "vue": "^3.5.18",
-    "@yfiles/yfiles": "../yFiles-for-HTML-Complete-3.0.0.4-Evaluation/lib/yfiles-30.0.4+eval-dev.tgz"
+    "vue": "^3.5.26",
+    "@yfiles/yfiles": "../yFiles-for-HTML-Complete-3.0.0.5-Evaluation/lib-dev/yfiles-30.0.5+eval-dev.tgz"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^6.0.1",
+    "@vitejs/plugin-vue": "^6.0.3",
     "@vue/eslint-config-prettier": "^10.2.0",
-    "@vue/tsconfig": "^0.7.0",
-    "eslint": "^9.32.0",
-    "eslint-plugin-vue": "^10.4.0",
-    "typescript": "~5.9.0",
-    "vite": "^7.1.0",
-    "vue-tsc": "^3.0.5"
+    "@vue/tsconfig": "^0.8.1",
+    "eslint": "^9.39.2",
+    "eslint-plugin-vue": "^10.6.2",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.0",
+    "vue-tsc": "^3.1.8"
   }
 }
