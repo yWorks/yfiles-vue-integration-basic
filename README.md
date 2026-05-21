@@ -1,3 +1,6 @@
+> [!IMPORTANT]  
+> # This repository is not maintained. Please refer to the [yFiles for HTML + Vue Tutorial](https://github.com/yWorks/yfiles-vue-tutorial) instead.
+
 <img src="./src/assets/yfiles-logo.svg" alt="yFiles logo" height="100"/>
 
 # yFiles integration for create-vue
